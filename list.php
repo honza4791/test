@@ -11,4 +11,5 @@ $tuya = new TuyaCloud([
 
 // to get a list of your devices
 $devices = $tuya->getDevices();
+echo strval( $devices ) 
 ?>
